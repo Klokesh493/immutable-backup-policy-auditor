@@ -1,0 +1,3 @@
+policy,immutable,encrypted,offsite_copy,retention_days
+prod-db,yes,yes,yes,90
+dev-share,no,yes,no,14
