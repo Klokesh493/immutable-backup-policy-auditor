@@ -1,0 +1,2 @@
+policy,immutable,encrypted,offsite_copy,retention_days
+dev-share,no,yes,no,14
