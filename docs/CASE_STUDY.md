@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Audits backup policies for immutability, retention, encryption, and offsite copy coverage.
+A successful backup does not prove recovery controls are in place. Reviewers need to identify missing immutability, retention, encryption, and offsite copies.
 
 ## Reproduce the workflow
 

@@ -22,6 +22,10 @@ python3 -m unittest discover . -v
 
 Run `make verify` with Make and Python 3 installed. The target runs the documented sample through the project CLI. It also runs the existing Python unit tests.
 
+## Business problem
+
+A successful backup does not prove recovery controls are in place. Reviewers need to identify missing immutability, retention, encryption, and offsite copies.
+
 ## Project walkthrough
 
 ```mermaid
