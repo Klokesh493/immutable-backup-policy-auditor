@@ -4,11 +4,14 @@ Audits backup policies for immutability, retention, encryption, and offsite copy
 
 ```mermaid
 flowchart LR
-    N0["sample_policies.csv"]
-    N1["policy_auditor.py"]
-    N2["audit"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Backup policy CSV"]
+    B["Check protection flags and minimum 30-day retention"]
+    C{"Any control missing?"}
+    D["List policy gaps"]
+    E["No gaps"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries
