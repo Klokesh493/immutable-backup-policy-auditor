@@ -2,6 +2,8 @@
 
 A successful backup does not prove recovery controls are in place. Reviewers need to identify missing immutability, retention, encryption, and offsite copies.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a policy audit that checks immutability, encryption, offsite copies, and a minimum 30-day retention period. Its output lists every failing control by policy name.
